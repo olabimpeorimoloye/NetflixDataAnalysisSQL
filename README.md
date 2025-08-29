@@ -52,13 +52,14 @@ GROUP BY type
 
 
 ### 3.	List All Movies Released in a 2020
-	 ```sql
-  
+
+```sql
   SELECT * FROM netflix_titles
-		WHERE release_year = 2020;
-   ```
+WHERE release_year = 2020;
+```
+
   
-  **Objective:** Retrieve all movies released in a specific year.
+**Objective:** Retrieve all movies released in a specific year.
  
 
 ### 4.	Find the Top 5 Countries with the Most Content on Netflix
